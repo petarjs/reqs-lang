@@ -1,0 +1,34 @@
+---
+Example 1 - Basic
+This is a basic example of ReqsLang. Only basic features shown.
+---
+
+[Milestone 1 - Basic]
+  - [x] Completed Task
+  - [ ] A task that is not complete
+  - [ ] #13 A task that has an ID
+
+[Milestone 2 - Tasks with description]
+  - [x] This task has a title
+
+    But it also has a description. The description can be as short or as long as you like.
+
+  - [ ] This is another one
+
+    With a description.
+    We may want to break the lines
+    in a way that looks good to us,
+    which
+    is
+    totally
+    fine.
+
+[Milestone 3 - Tasks with metadata]
+  - [ ] This task has an asignee!
+    @petar
+  - [ ] This task has some tags
+    #many-tags #wow
+  - [ ] This task has some custom variables.
+    --is-cool --coolness-level 9999
+  - [ ] This task combines all meta types from above.
+    @aleksandar #important --priority 5 --dealine 05/04/2017

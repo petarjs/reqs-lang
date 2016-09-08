@@ -1,0 +1,23 @@
+---
+Example 2 - Combining all the Elements
+This example builds on Example 1 by combining all the elements
+that we saw there into each task.
+---
+
+[Combine all the elements]
+  - [x] Check out Example 1
+    @aleksandar #learning --deadline today
+
+    We need to check out the first example in order to go through this one.
+    Now we begin to see the complete structure of a task.
+    Of course, you can omit any part you want. Well, maybe the title should be mandatory.
+
+  - [ ] Check out Example 2
+    @petar #reading --in-progress
+
+    This is the second example right here.
+
+  - [ ] Check out Example 3
+    @petar #creating --in-progress
+
+    The third example will show custom info areas in tasks.

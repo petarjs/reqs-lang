@@ -1,0 +1,54 @@
+---
+Example 3 - Custom Info Areas
+This example shows how we can use custom info areas 
+to add blocks of useful data to our tasks.
+---
+
+  - Show custom info areas
+  @petar
+
+  This might be a bit confusing, but it's just blocks where you can add
+  structured or unstructured data that you want.
+
+  - Sub-Tasks
+
+    Here is an example of --tasks:
+
+  --tasks
+    - [ ] This is a sub task
+    - [ ] And subtasks can have metadata
+      --depth-level 1
+    - [ ] And also subtasks can have their own subtasks
+      --tasks
+        - [ ] Hello from the other side!
+          --depth-level 2
+
+          And if you feel that adding --tasks everytime looks confusing,
+          you can omit it, np.
+
+          - [x] nested task
+          - [x] that didn't have the --tasks title
+          - [ ] cool.
+
+  - Comments
+
+    Here's an exmaple of comments within a task. I know, I know, not THAT useful since
+    there are no real time notifications and stuff, but still...
+
+    --comments
+      @petar - Tasks can have comments where people can ask questions or clarify things. (02/04/2016 13:32pm)
+      @petar - They should have the name of who wrote the comment at the beginning (02/04/2016 13:32pm)
+      @petar - And datetime when the comment was added at the end. (02/04/2016 13:32pm)
+
+  - References and Dependencies
+
+    Here we see how to reference to other tasks and define dependencies on other tasks.
+    Reference to a task if you want to add more context and info.
+    Add a task as a dependency if that task needs to be completed before this one.
+
+    --references
+      #104 - this is where some important thing is defined
+      #301 - this is a task that has more context
+
+    --dependencies
+      #99
