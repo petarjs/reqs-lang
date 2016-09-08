@@ -15,6 +15,20 @@ I'd love to hear what people think about this, and to get a discussion going on 
 ## Example
 
 ```
+---
+Some cool project
+This is a description of the project.
+
+- GitHub
+  https://github.com/petarslovic/reqs-lang
+
+- Milestones
+  [beta], [release]
+
+- Members
+  @aleksandar, @petar
+---
+
 [beta]
   - [x] Make font bigger
     @petar #front-end --deadline 23.02.2016.
@@ -58,6 +72,10 @@ It can be called `.reqs` or `.requirements`. Alternatively, if you have a lot of
 I don't think there should be hard rules about indentation. Use whatever feels right. The example above is what feels right to me.
 
 ## Elements
+
+### Project description
+
+At the very top of the file, you can add info about the project, enclosed in `---`. Standard things to list are the project name, description, any links (like link to github repo), list of members, list of milestones.
 
 ### Milestones
 
