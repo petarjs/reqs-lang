@@ -6,11 +6,21 @@ The idea behind it is to have a `.reqs` text file where you define requirements 
 
 I created a plugin for syntax highlighting for Sublime 3. You can find it [here](https://github.com/petarslovic/sublime-reqs-language).
 
+![](reqs-highlighting.png)
+
 There are some aspects of this that are not so ideal, like collaboration - you'll get the changes your colleagues make when you pull code from Git, instead of right away, as with other tools. Also, ReqsLang is probably best fitted to small projects.
+
+## Programs that use ReqsLang
 
 There is no parser or GUI for this, although it'd be cool to make one and integrate it.
 
+## Contributing
+
 I'd love to hear what people think about this, and to get a discussion going on how we can improve this. Hopefully at least one other person will find this useful. That's enough to warm my heart. <3
+
+## Licence
+
+MIT.
 
 ## Example
 
@@ -62,6 +72,10 @@ This is a description of the project.
 
     We need to test stuff.
 ```
+
+## Examples
+
+You can see a list of examples in the `examples/` directory.
 
 ## File name
 
