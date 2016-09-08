@@ -49,6 +49,10 @@ I'd love to hear what people think about this, and to get a discussion going on 
     We need to test stuff.
 ```
 
+## File name
+
+It can be called `.reqs` or `.requirements`. Alternatively, if you have a lot of tasks, you can split them into various files, like `user-list.reqs`, `movie-management.reqs`, etc.
+
 ## Indentation
 
 I don't think there should be hard rules about indentation. Use whatever feels right. The example above is what feels right to me.
