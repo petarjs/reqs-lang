@@ -4,7 +4,7 @@ ReqsLang is a simple and flexible language for defining project requirements and
 
 The idea behind it is to have a `.reqs` text file where you define requirements of your project. That way it's right where your code is, and it's checked in to your VCS.
 
-Read more about the concept on my [blog](http://petar.io/post/reqs-lang/)
+Read more about the concept on my [blog](http://petar.io/post/reqs-lang/).
 
 I created a plugin for syntax highlighting for Sublime 3. You can find it [here](https://github.com/petarslovic/sublime-reqs-language).
 
